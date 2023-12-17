@@ -31,9 +31,7 @@ def deal_dealer():
         dealer_hand.append(deal_cards(dealer_card_frame))
         dealer_score=score_hand(dealer_hand)
         dealer_score_label.set(dealer_score)
-        if a==0:
-            break
-
+    
     player_score=score_hand(player_hand)
     if player_score>21:
         result_text.set("dealer wins")
