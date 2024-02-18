@@ -1,5 +1,5 @@
 import tkinter
-import random
+import random   #for deck shuffling
 def load_images(card_images):
     suits=['heart','club','diamond','spade']
     face_cards=['jack','queen','king']
